@@ -1,3 +1,9 @@
+# Cloudflare Challenge
+
+I really enjoyed working with Cloudflare Workers - from my interactions with them so far, they seem very powerful!
+
+Please note my account ID has not been committed to this public repository purposefully. Let me know if that is needed as well!
+
 ## Screenshot of Rendered HTML Page
 
 ![Screenshot of Worker](./worker-screenshot.PNG?raw=true)
@@ -5,6 +11,11 @@
 ## Visiting Deployed Worker
 
 Please see https://advait-worker.advaitm.workers.dev/ for the deployed worker (also in `URL.txt`).
+
+## Building and Deploying
+
+- `wrangler dev` to build and deploy locally for debugging
+- `wrangler publish` to build, deploy and publish to the associated URL (note: an account ID must be added to `wrangler.toml`)
 
 ## Core Tasks
 
