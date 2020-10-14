@@ -12,6 +12,8 @@ Please note my account ID has not been committed to this public repository purpo
 
 Please see https://advait-worker.advaitm.workers.dev/ for the deployed worker (also in `URL.txt`).
 
+Note that the modified HTML page is returned at https://advait-worker.advaitm.workers.dev/ and the links JSON is returned at https://advait-worker.advaitm.workers.dev/links.
+
 ## Building and Deploying
 
 - `wrangler dev` to build and deploy locally for debugging

@@ -36,7 +36,7 @@ class ProfileTransformer {
     async element(element) {
         switch (element.tagName + "#" + element.getAttribute("id")) {
             case "div#profile":
-                element.removeAttribute("style");
+                element.removeAttribute("style"); // Remove "display: none"
                 break;
             case "img#avatar":
                 element.setAttribute("src", this.profileImgLink);
@@ -59,7 +59,7 @@ class SocialTransformer {
     }
 
     async element(element) {
-        element.removeAttribute("style");
+        element.removeAttribute("style"); // Remove "display: none"
         this.socialInfo.forEach((curSocial) =>
           element.append(`<a href="${curSocial.url}">${curSocial.svg}</a>`, {
               html: true,
